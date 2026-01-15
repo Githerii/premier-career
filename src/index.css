@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* BRAND COLORS */
+:root {
+  --pcs-dark: #1E3A8A;
+  --pcs-sky: #3B82F6;
+  --pcs-gray: #F5F5F5;
+}
