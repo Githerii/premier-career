@@ -15,7 +15,7 @@ export default function Assessments() {
 
         {/* MAPP Assessment */}
         <div
-          className="p-8 bg-white rounded-xl shadow hover:shadow-xl transition cursor-pointer"
+          className="p-8 bg-gradient-to-br from-pcs-sky/20 to-pcs-sky/5 border border-pcs-sky/30 rounded-xl shadow hover:shadow-xl transition cursor-pointer"
           onClick={() => setOpenModal("mapp")}
         >
           <h2 className="text-2xl font-semibold text-pcs-dark mb-3">
@@ -26,6 +26,10 @@ export default function Assessments() {
             The Motivational Appraisal of Personal Potential (MAPP®) helps
             individuals discover their natural motivations and aligns them with
             real career families.
+          </p>
+
+          <p className="text-sm text-pcs-dark/80 italic mb-4">
+            Click to view more info.
           </p>
 
           <Link
@@ -39,7 +43,7 @@ export default function Assessments() {
 
         {/* Color Persona */}
         <div
-          className="p-8 bg-white rounded-xl shadow hover:shadow-xl transition cursor-pointer"
+          className="p-8 bg-gradient-to-br from-pcs-sky/20 to-pcs-sky/5 border border-pcs-sky/30 rounded-xl shadow hover:shadow-xl transition cursor-pointer"
           onClick={() => setOpenModal("color")}
         >
           <h2 className="text-2xl font-semibold text-pcs-dark mb-3">
@@ -49,6 +53,10 @@ export default function Assessments() {
           <p className="text-gray-700 leading-relaxed mb-6">
             A fun, color-based personality model that helps teams understand
             behavior styles and improve communication.
+          </p>
+
+          <p className="text-sm text-pcs-dark/80 italic mb-4">
+            Click to view more info.
           </p>
 
           <Link
